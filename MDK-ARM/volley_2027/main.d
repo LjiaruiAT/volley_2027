@@ -56,3 +56,5 @@ volley_2027\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 volley_2027\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 volley_2027\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 volley_2027\main.o: ../Core/Inc/gpio.h
+volley_2027\main.o: ..\MyLib\CANDrive.h
+volley_2027\main.o: ..\MyLib\RMLibHead.h

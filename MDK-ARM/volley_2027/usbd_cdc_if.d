@@ -46,3 +46,13 @@ volley_2027\usbd_cdc_if.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd
 volley_2027\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
 volley_2027\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 volley_2027\usbd_cdc_if.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+volley_2027\usbd_cdc_if.o: ..\MyLib\usb_trans.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+volley_2027\usbd_cdc_if.o: ../Core/Inc/FreeRTOSConfig.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+volley_2027\usbd_cdc_if.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

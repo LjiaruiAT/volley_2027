@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../USB_DEVICE/App;../USB_DEVICE/Target;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\MyLib;..\MyTask</IncludePath>
+              <IncludePath>../Core/Inc;../USB_DEVICE/App;../USB_DEVICE/Target;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\MyLib;..\MyTask;..\Remote_control</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -749,11 +749,101 @@
               <FileType>5</FileType>
               <FilePath>..\MyLib\usb_trans.h</FilePath>
             </File>
+            <File>
+              <FileName>PID.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MyLib\PID.c</FilePath>
+            </File>
+            <File>
+              <FileName>PID.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyLib\PID.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_dwt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MyLib\bsp_dwt.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_dwt.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyLib\bsp_dwt.h</FilePath>
+            </File>
+            <File>
+              <FileName>RMLibHead.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyLib\RMLibHead.h</FilePath>
+            </File>
+            <File>
+              <FileName>mylist.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MyLib\mylist.c</FilePath>
+            </File>
+            <File>
+              <FileName>mylist.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyLib\mylist.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Remote_control</GroupName>
+          <Files>
+            <File>
+              <FileName>comm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Remote_control\comm.c</FilePath>
+            </File>
+            <File>
+              <FileName>comm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Remote_control\comm.h</FilePath>
+            </File>
+            <File>
+              <FileName>comm_stm32_hal_middle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Remote_control\comm_stm32_hal_middle.c</FilePath>
+            </File>
+            <File>
+              <FileName>comm_stm32_hal_middle.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Remote_control\comm_stm32_hal_middle.h</FilePath>
+            </File>
+            <File>
+              <FileName>data_poll.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Remote_control\data_poll.c</FilePath>
+            </File>
+            <File>
+              <FileName>data_poll.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Remote_control\data_poll.h</FilePath>
+            </File>
+            <File>
+              <FileName>My_list.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Remote_control\My_list.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataFrame.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Remote_control\dataFrame.h</FilePath>
+            </File>
+            <File>
+              <FileName>hardware.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Remote_control\hardware.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>MyTask</GroupName>
           <Files>
+            <File>
+              <FileName>config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyTask\config.h</FilePath>
+            </File>
             <File>
               <FileName>app.c</FileName>
               <FileType>1</FileType>
@@ -782,7 +872,17 @@
             <File>
               <FileName>usb_upper.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\usb_upper.h</FilePath>
+              <FilePath>..\MyTask\usb_upper.h</FilePath>
+            </File>
+            <File>
+              <FileName>unitree.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MyTask\unitree.c</FilePath>
+            </File>
+            <File>
+              <FileName>unitree.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyTask\unitree.h</FilePath>
             </File>
           </Files>
         </Group>

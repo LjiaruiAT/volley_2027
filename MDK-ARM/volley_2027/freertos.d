@@ -46,3 +46,12 @@ volley_2027\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 volley_2027\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 volley_2027\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 volley_2027\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+volley_2027\freertos.o: ..\MyTask\Task_Init.h
+volley_2027\freertos.o: ..\MyTask\config.h
+volley_2027\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+volley_2027\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+volley_2027\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+volley_2027\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+volley_2027\freertos.o: ../Core/Inc/usart.h
+volley_2027\freertos.o: ..\Remote_control\dataFrame.h
+volley_2027\freertos.o: ..\MyTask\usb_upper.h

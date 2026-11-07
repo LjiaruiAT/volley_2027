@@ -1,4 +1,4 @@
-fvgg#include "usb_trans.h"
+#include "usb_trans.h"
 #include "usbd_cdc_if.h"
 #include "usb_device.h"
 #include <string.h>

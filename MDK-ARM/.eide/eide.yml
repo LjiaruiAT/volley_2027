@@ -114,15 +114,36 @@ virtualFolder:
         - path: ../MyLib/PID_old.h
         - path: ../MyLib/usb_trans.c
         - path: ../MyLib/usb_trans.h
+        - path: ../MyLib/PID.c
+        - path: ../MyLib/PID.h
+        - path: ../MyLib/bsp_dwt.c
+        - path: ../MyLib/bsp_dwt.h
+        - path: ../MyLib/RMLibHead.h
       folders: []
     - name: MyTask
       files:
+        - path: ../MyTask/config.h
         - path: ../MyTask/app.c
         - path: ../MyTask/app.h
         - path: ../MyTask/Task_Init.h
         - path: ../MyTask/Task_Init.c
         - path: ../MyTask/usb_upper.c
-        - path: usb_upper.h
+        - path: ../MyTask/usb_upper.h
+        - path: ../MyTask/unitree.c
+        - path: ../MyTask/unitree.h
+      folders: []
+    - name: Remote_control
+      files:
+        - path: ../Remote_control/comm.c
+        - path: ../Remote_control/comm.h
+        - path: ../Remote_control/comm_stm32_hal_middle.c
+        - path: ../Remote_control/comm_stm32_hal_middle.h
+        - path: ../Remote_control/data_poll.c
+        - path: ../Remote_control/data_poll.h
+        - path: ../Remote_control/My_list.c
+        - path: ../Remote_control/My_list.h
+        - path: ../Remote_control/dataFrame.h
+        - path: ../Remote_control/hardware.h
       folders: []
     - name: ::CMSIS
       files: []
@@ -152,6 +173,7 @@ targets:
         - ../Drivers/CMSIS/Include
         - ../MyLib
         - ../MyTask
+        - ../Remote_control
         - .cmsis/include
         - RTE/_volley_2027
       libList: []
